@@ -4,7 +4,7 @@ A random [ordered tree](https://en.wikipedia.org/wiki/Tree_(graph_theory)#Plane_
 The sampler creates ordered trees by generating a random walk that follows the supplied distribution. 
 This was done to demonstrate an efficient way to uniformly sample an ordered tree from the set of all ordered trees of a given size. 
 The number of children of each node follows the supplied distribution. 
-The uniform distribution is equivalent to the child-distribution `pow(2,-i-1)`, where i is the number of children. 
+The uniform distribution is equivalent to the child-distribution pow(2,-i-1), where i is the number of children. 
 
 
 ### Requirements
